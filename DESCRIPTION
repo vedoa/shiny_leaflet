@@ -1,0 +1,14 @@
+Title: Shiny leaflet example code
+Version: 0.0.1
+Authors@R: 
+    person("Vedo", "Alagic", role = c("aut", "cre"))
+Description: Show interesting stuff with shiny and leaflet
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.2
+Imports:
+    shiny,
+    shinydashboard,
+    markdown,
+    leaflet
+    DT
