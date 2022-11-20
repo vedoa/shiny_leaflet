@@ -34,3 +34,8 @@ A map and a table are shown. Clicking a marker on the map selects the correspond
 
 <img src="www/gif/example2.gif" width="400">
 
+#### Example 3
+
+A map is shown with the default leaflet marker. Multiple options of custom markers (red circle, blue rectangle, custom shape) can be selected with a radio button. The position of the custom marker and the width and height can be adjusted with numeric inputs. After clicking the update marker button the custom markers are shown instead of the default ones.
+
+<img src="www/gif/example3.gif" width="400">

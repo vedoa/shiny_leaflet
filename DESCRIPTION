@@ -11,4 +11,5 @@ Imports:
     shinydashboard,
     markdown,
     leaflet
-    DT
+    DT,
+    RCurl

@@ -8,7 +8,8 @@ tabItems(
           tabBox(id = "tabbox_example_basic", 
                  width = 12,
                  basicExampleUI(id = "example1", type = "click", title = "Get long/lat on click"),
-                 basicExampleUI(id = "example2", type = "DT", title = "DT and marker interaction")
+                 basicExampleUI(id = "example2", type = "DT", title = "DT and marker interaction"),
+                 basicExampleUI(id = "example3", type = "customMarker", title = "Select custom marker")
           )
   ),
   
