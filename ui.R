@@ -7,7 +7,7 @@ library(DT)
 
 dashboardPage(
 
-  dashboardHeader(title = "Example"),
+  dashboardHeader(title = "Examples"),
 
   dashboardSidebar(
     
@@ -16,7 +16,7 @@ dashboardPage(
   ),
 
   dashboardBody(
-    
+
     source("./ui/body.R", local = TRUE)$value
     
   )

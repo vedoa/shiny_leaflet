@@ -13,5 +13,10 @@ tabItems(
           )
   ),
   
-  tabItem(tabName = "example_dynamic")
+  tabItem(tabName = "example_advanced",
+          tabBox(id = "tabbox_example_advanced", 
+                 width = 12,
+                 advancedExample1UI(id = "colorPicker", title = "HTML color picker with custom shape")
+          )
+          )
 )

@@ -39,3 +39,9 @@ A map and a table are shown. Clicking a marker on the map selects the correspond
 A map is shown with the default leaflet marker. Multiple options of custom markers (red circle, blue rectangle, custom shape) can be selected with a radio button. The position of the custom marker and the width and height can be adjusted with numeric inputs. After clicking the update marker button the custom markers are shown instead of the default ones.
 
 <img src="www/gif/example3.gif" width="400">
+
+### Advanced examples
+
+#### Custom shiny input and custom marker
+
+The initial marker is the default one from leaflet. A custom shiny input is created with the HTML color picker which should work on all modern web browser. Once a color is picked the marker changes to the letter R with the color set in the color picker.
